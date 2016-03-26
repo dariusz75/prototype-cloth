@@ -1,0 +1,203 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic-ext,latin-ext,cyrillic,greek-ext,greek,vietnamese);
+@font-face {
+	font-family: "basiccontrols";
+	src: url("basiccontrols.eot?cssslidertheme=basic");
+	src: url("basiccontrols.eot#iefix?cssslidertheme=basic") format("embedded-opentype"),
+			url("basiccontrols.woff?cssslidertheme=basic") format("woff"),
+			url("basiccontrols.ttf?cssslidertheme=basic") format("truetype"),
+			url("basiccontrols.svg#basic?cssslidertheme=basic") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.csslider3 {
+	display: inline-block;
+	position: relative;
+	max-width: 350px;
+	
+	width: 100%;
+	margin-top: 0px;
+}
+.csslider3 > .cs_anchor3 {
+	display: none;
+}
+.csslider3 > ul {
+	position: relative;
+	z-index: 1;
+	font-size: 0;
+	line-height: 0;
+	margin: 0 auto;
+	padding: 0;
+	
+	overflow: hidden;
+	white-space: nowrap;
+}
+.csslider3 > ul > li.img img {
+	width: 100%;
+}
+.csslider3 > ul > li.img {
+	font-size: 0pt;
+
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+.csslider3 > ul > li {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-size: 15px;
+	font-size: initial;
+	line-height: normal;
+	white-space: normal;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.csslider3 .cs_lnk{
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	font-size: 0pt;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.csslider3 > #cs_slide1_0:checked ~ ul > li.num0,
+.csslider3 > #cs_slide1_1:checked ~ ul > li.num1,
+.csslider3 > #cs_slide1_2:checked ~ ul > li.num2,
+.csslider3 > #cs_slide1_3:checked ~ ul > li.num3 {
+	opacity: 1;
+	z-index: 2;
+}
+
+.csslider3 > ul > li {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline-block;
+	opacity: 0;
+	z-index: 1;
+  
+  	-webkit-transition: opacity 2000ms ease;
+  	-moz-transition: opacity 2000ms ease;
+  	-ms-transition: opacity 2000ms ease;
+  	-o-transition: opacity 2000ms ease;
+  	transition: opacity 2000ms ease;
+  	
+}
+.csslider3 > ul > li.num0 {
+	opacity: 1;
+	z-index: 2;
+}
+.csslider3 > .slide:checked ~ ul > li.num0 {
+	opacity: 0;
+	z-index: 1;
+}
+
+/* calculate autoplay */
+@-webkit-keyframes fade {
+	0%, 36.904761904761905%, 100%	{ opacity: 0; z-index: 2; }
+	11.904761904761905%, 25%	{ opacity: 1; z-index: 2; }
+}
+@-moz-keyframes fade {
+	0%, 36.904761904761905%, 100%	{ opacity: 0; z-index: 2; }
+	11.904761904761905%, 25%	{ opacity: 1; z-index: 2; }
+}
+@-ms-keyframes fade {
+	0%, 36.904761904761905%, 100%	{ opacity: 0; z-index: 2; }
+	11.904761904761905%, 25%	{ opacity: 1; z-index: 2; }
+}
+@-o-keyframes fade {
+	0%, 36.904761904761905%, 100%	{ opacity: 0; z-index: 2; }
+	11.904761904761905%, 25%	{ opacity: 1; z-index: 2; }
+}
+@keyframes fade {
+	0%, 36.904761904761905%, 100%	{ opacity: 0; z-index: 2; }
+	11.904761904761905%, 25%	{ opacity: 1; z-index: 2; }
+}
+
+
+.csslider3 > #cs_play3:checked ~ ul > li.num0,
+.csslider3 > #cs_pause3:checked ~ ul > li.num0 {
+	-webkit-animation: fade 16800ms infinite -2000ms;
+	-moz-animation: fade 16800ms infinite -2000ms;
+	-ms-animation: fade 16800ms infinite -2000ms;
+	-o-animation: fade 16800ms infinite -2000ms;
+	animation: fade 16800ms infinite -2000ms;
+	
+}
+.csslider3 > #cs_play3:checked ~ ul > li.num1,
+.csslider3 > #cs_pause3:checked ~ ul > li.num1 {
+	-webkit-animation: fade 16800ms infinite 2200ms;
+	-moz-animation: fade 16800ms infinite 2200ms;
+	-ms-animation: fade 16800ms infinite 2200ms;
+	-o-animation: fade 16800ms infinite 2200ms;
+	animation: fade 16800ms infinite 2200ms;
+	
+}
+.csslider3 > #cs_play3:checked ~ ul > li.num2,
+.csslider3 > #cs_pause3:checked ~ ul > li.num2 {
+	-webkit-animation: fade 16800ms infinite 6400ms;
+	-moz-animation: fade 16800ms infinite 6400ms;
+	-ms-animation: fade 16800ms infinite 6400ms;
+	-o-animation: fade 16800ms infinite 6400ms;
+	animation: fade 16800ms infinite 6400ms;
+	
+}
+.csslider3 > #cs_play3:checked ~ ul > li.num3,
+.csslider3 > #cs_pause3:checked ~ ul > li.num3 {
+	-webkit-animation: fade 16800ms infinite 10600ms;
+	-moz-animation: fade 16800ms infinite 10600ms;
+	-ms-animation: fade 16800ms infinite 10600ms;
+	-o-animation: fade 16800ms infinite 10600ms;
+	animation: fade 16800ms infinite 10600ms;
+	
+}
+
+
+
+
+.csslider3 > #cs_play3:checked ~ ul > li,
+.csslider3 > #cs_pause3:checked ~ ul > li {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+	
+}
+
+.csslider3.cs_pauseHover:hover > ul > li,
+.csslider3 > #cs_pause3:checked ~ ul > li{
+	-webkit-animation-play-state: paused !important;
+	-moz-animation-play-state: paused !important;
+	-ms-animation-play-state: paused !important;
+	-o-animation-play-state: paused !important;
+	animation-play-state: paused !important;
+}
+/* stop */
+
+/* /calculate autoplay */
+/* hide description & bullets on mobile devices */
+@media
+only screen and (max-width: 480px),
+only screen and (-webkit-max-device-pixel-ratio: 2)      and (max-width: 480px),
+only screen and (   max--moz-device-pixel-ratio: 2)      and (max-width: 480px),
+only screen and (     -o-max-device-pixel-ratio: 2/1)    and (max-width: 480px),
+only screen and (        max-device-pixel-ratio: 2)      and (max-width: 480px),
+only screen and (                max-resolution: 192dpi) and (max-width: 480px),
+only screen and (                max-resolution: 2dppx)  and (max-width: 480px) { 
+	.csslider3 > .cs_description,
+	.csslider3 > .cs_bullets {
+		display: none;
+	}
+}

@@ -1,0 +1,98 @@
+@charset "utf-8";
+/**
+    * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+    * Richard Clark (http://richclarkdesign.com)
+    * http://cssreset.com
+    */
+	
+	
+ 
+    body {
+    line-height:1;
+    }
+    article,aside,details,figcaption,figure,
+    footer,header,hgroup,menu,nav,section {
+    display:block;
+    }
+    nav ul {
+	list-style:none;
+	text-decoration: none;
+    }
+    blockquote, q {
+    quotes:none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    content:'';
+    content:none;
+    }
+    a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+	outline: 0;
+	
+    }
+    /* change colours to suit your needs */
+    ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+    }
+    /* change colours to suit your needs */
+    mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+    }
+#footer-content {
+    text-decoration: line-through;
+    }
+    abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+    }
+    table {
+	border-collapse:collapse;
+	border-spacing:0;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #ac050f;
+    }
+    /* change border colour to suit your needs */
+    hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+    }
+    input, select {
+    vertical-align:middle;
+    }/* CSS Document */
+.biggerfont {
+	font-size: 26px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+mediumfont {
+	font-size: 22px;
+}
+.mediumfont {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper #mainarea #contactbox form table tr td {
+	font-size: 14px;
+	color: #f2b593;
+}
+.copyrightemail {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #CCC;
+	text-decoration: none;
+}

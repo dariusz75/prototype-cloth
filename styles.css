@@ -1,0 +1,544 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'blokletters_balpenbalpen';
+    src: url('blokletters-balpen-webfont.eot');
+    src: url('blokletters-balpen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('blokletters-balpen-webfont.woff2') format('woff2'),
+         url('blokletters-balpen-webfont.woff') format('woff'),
+         url('blokletters-balpen-webfont.ttf') format('truetype'),
+         url('blokletters-balpen-webfont.svg#blokletters_balpenbalpen') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'blokletters_potloodpotlood';
+    src: url('blokletters-potlood-webfont.eot');
+    src: url('blokletters-potlood-webfont.eot?#iefix') format('embedded-opentype'),
+         url('blokletters-potlood-webfont.woff2') format('woff2'),
+         url('blokletters-potlood-webfont.woff') format('woff'),
+         url('blokletters-potlood-webfont.ttf') format('truetype'),
+         url('blokletters-potlood-webfont.svg#blokletters_potloodpotlood') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'afta_serifregular';
+    src: url('aftaserifthin-regular-webfont.eot');
+    src: url('aftaserifthin-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aftaserifthin-regular-webfont.woff2') format('woff2'),
+         url('aftaserifthin-regular-webfont.woff') format('woff'),
+         url('aftaserifthin-regular-webfont.ttf') format('truetype'),
+         url('aftaserifthin-regular-webfont.svg#afta_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background-color: #666;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+#header{
+	background-color: #609;
+	top: 0px;
+	padding: 0px;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	z-index: 2000;		
+	}
+	
+#header-content {
+	height: 50px;
+	width: 1024px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	
+}	
+
+#logo {
+	height: 50px;
+	width: 700px;
+	margin-top: -10px;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+#social-media-box{
+	height: 40px;
+	width: 204px;
+	
+	float: right;
+	margin-top: -25px;
+	}	
+	
+#container{
+	background-color: white;
+	padding: 0px;
+	height: 700px;
+	width: 1024px;
+	margin-top: 70px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	}
+	
+#galeries{
+	background-color: #999;
+	margin: 0px;
+	padding: 0px;
+	height: 700px;
+	width: 700px;
+	float:left;
+	}	
+	
+#g1{
+	background-color: red;
+	padding: 0px;
+	margin: 0px;
+	height: 350px;
+	width: 350px;
+	z-index: 1;
+	}	
+	
+#frame-g1 {
+	background-image: url(images/hover-birmingham.png);
+	padding: 0px;
+	margin-top: -700px;
+	height: 350px;
+	width: 350px;
+	z-index: 10;
+	position: absolute;
+	opacity: 1;
+	transmition-property: opacity;
+	transition-duration: 1s;
+	-moz-transition-property:opacity;
+	-moz-transition-duration:1s;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:1s;
+	-ms-transition-property:opacity;
+	-ms-transition-duration:1s;
+	-o-transition-property:opacity;
+	-o-transition-duration:1s;
+	}	
+	
+#frame-g1:hover {
+	opacity: 0.5;
+	transmition-property: opacity;
+	transition-duration: 1s;
+	-moz-transition-property:opacity;
+	-moz-transition-duration:1s;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:1s;
+	-ms-transition-property:opacity;
+	-ms-transition-duration:1s;
+	-o-transition-property:opacity;
+	-o-transition-duration:1s;
+	
+	}	
+	
+#g2{
+	background-color: #FF0;
+	padding: 0px;
+	margin-top: -350px;
+	margin-left: 350px;
+	height: 350px;
+	width: 350px;
+	z-index: 2;	
+	
+	}
+
+#g1 p, #g2 p, #g3 p, #g4 p{
+	position: absolute;
+	padding: 0px;
+	margin-top: 120px;
+	margin-left:60px;
+	font-size: 35px;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	}
+	
+#frame-g2 {
+	background-image: url(images/hover-manchester.png);
+	padding: 0px;
+	margin-top: -700px;
+	margin-left: 350px;
+	height: 350px;
+	width: 350px;
+	z-index: 11;
+	position: absolute;
+	opacity: 1;
+	transmition-property: opacity;
+	transition-duration: 1s;
+	-moz-transition-property:opacity;
+	-moz-transition-duration:1s;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:1s;
+	-ms-transition-property:opacity;
+	-ms-transition-duration:1s;
+	-o-transition-property:opacity;
+	-o-transition-duration:1s;
+	}	
+	
+	
+#frame-g2:hover {
+	opacity: 0.5;
+	transmition-property: opacity;
+	transition-duration: 1s;
+	-moz-transition-property:opacity;
+	-moz-transition-duration:1s;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:1s;
+	-ms-transition-property:opacity;
+	-ms-transition-duration:1s;
+	-o-transition-property:opacity;
+	-o-transition-duration:1s;
+	
+	}			
+	
+#g3{
+	background-color: #0C3;
+	padding: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	height: 350px;
+	width: 350px;
+	z-index: 3;
+	
+	}	
+	
+#frame-g3 {
+	background-image: url(images/hover-leeds.png);
+	padding: 0px;
+	margin-top: -350px;
+	height: 350px;
+	width: 350px;
+	z-index: 12;
+	position: absolute;
+	transmition-property: opacity;
+	transition-duration: 1s;
+	-moz-transition-property:opacity;
+	-moz-transition-duration:1s;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:1s;
+	-ms-transition-property:opacity;
+	-ms-transition-duration:1s;
+	-o-transition-property:opacity;
+	-o-transition-duration:1s;
+	background-repeat: no-repeat;
+	background-position: center;
+	}	
+	
+#frame-g3:hover {
+	opacity: 0.5;
+	transmition-property: opacity;
+	transition-duration: 1s;
+	-moz-transition-property:opacity;
+	-moz-transition-duration:1s;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:1s;
+	-ms-transition-property:opacity;
+	-ms-transition-duration:1s;
+	-o-transition-property:opacity;
+	-o-transition-duration:1s;
+	
+	}			
+	
+#g4{
+	background-color: #606;
+	padding: 0px;
+	margin-top: -350px;
+	margin-left: 350px;
+	height: 350px;
+	width: 350px;
+	z-index: 4;
+	
+	}	
+	
+#frame-g4 {
+	background-image: url(images/hover-london.png);
+	padding: 0px;
+	margin-top: -350px;
+	margin-left: 350px;
+	height: 350px;
+	width: 350px;
+	z-index: 13;
+	position: absolute;
+	transmition-property: opacity;
+	transition-duration: 1s;
+	-moz-transition-property:opacity;
+	-moz-transition-duration:1s;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:1s;
+	-ms-transition-property:opacity;
+	-ms-transition-duration:1s;
+	-o-transition-property:opacity;
+	-o-transition-duration:1s;
+	}	
+
+#frame-g4:hover {
+	opacity: 0.5;
+	transmition-property: opacity;
+	transition-duration: 1s;
+	-moz-transition-property:opacity;
+	-moz-transition-duration:1s;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:1s;
+	-ms-transition-property:opacity;
+	-ms-transition-duration:1s;
+	-o-transition-property:opacity;
+	-o-transition-duration:1s;
+	
+	}	
+	
+#box1 {
+	float: right;
+	width: 324px;
+	background-color: #5D0BB4;
+	height: 700px;
+	padding: 0px;
+		}
+		
+#form-box {
+	float: right;
+	width: 314px;
+	background-color: #5D0BB4;
+	height: 500px;
+	padding: 10px 5px 0px 5px;
+		}		
+		
+		
+#nav-box{
+	float: right;
+	width: 324px;
+	background-color: red;
+	height: 400px;
+	padding: 0px;
+		}		
+		
+#nav ul{
+	position: relative;
+	margin-top: 10px;
+	margin-left: -30px;	
+		}
+		
+
+		
+.side-menu {
+	
+	height: 25px;
+	width: 300px;
+	margin-top: 5px;
+	list-style-type: none;
+	
+	}		
+
+.side-menu p{
+	border: thin solid #FFF;
+	height: 25px;
+	width: 300px;
+	list-style-type: none;
+	margin-left: 0px;
+	font-family: "afta_serifregular", Courier, monospace;
+	font-size: 20px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 3px;
+	padding-bottom: 0px;
+	padding-left: 3px;
+	opacity: 0.5;
+	transmition-property: opacity;
+	transition-duration: 0.5s;
+	-moz-transition-property:opacity;
+	-moz-transition-duration:1s;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:1s;
+	-ms-transition-property:opacity;
+	-ms-transition-duration:1s;
+	-o-transition-property:opacity;
+	-o-transition-duration:1s;
+	
+	}	
+	
+.side-menu p:hover{
+	
+	
+	opacity: 1;
+	transmition-property: opacity;
+	transition-duration: 0.5s;
+	-moz-transition-property:opacity;
+	-moz-transition-duration:1s;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:1s;
+	-ms-transition-property:opacity;
+	-ms-transition-duration:1s;
+	-o-transition-property:opacity;
+	-o-transition-duration:1s;
+	}
+	
+	
+.side-menu p:active{
+	
+	
+	opacity: 1;
+	transmition-property: opacity;
+	transition-duration: 0.5s;
+	-moz-transition-property:opacity;
+	-moz-transition-duration:1s;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:1s;
+	-ms-transition-property:opacity;
+	-ms-transition-duration:1s;
+	-o-transition-property:opacity;
+	-o-transition-duration:1s;
+	}	
+	
+#text-box{
+	font-family: "afta_serifregular", Courier, monospace;
+	background-color: #065e86;
+	height: 460px;
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 5px;
+	
+	padding-top: 10px;
+	padding-right: 3px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	color: #CCC;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.05em;
+}	
+
+#text-box-addresses{
+	font-family: "afta_serifregular", Courier, monospace;
+	background-color: #065e86;
+	height: 515px;
+	width: 300px;
+	margin-top: 10px;
+	margin-left: 5px;
+	
+	padding-top: 10px;
+	padding-right: 3px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	color: #CCC;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.05em;
+}	
+	
+
+h4 {
+	margin: 0px;
+	padding: 0px;
+	
+	}
+
+
+	
+#social-list{
+	margin-top: -30px;	
+	
+	}		
+	
+.social {
+	text-decoration: none;
+	display: inline;	
+	float: right;
+	margin-left: 5px;
+	}
+	
+	
+
+#footer_box {
+	width: 1024px;
+	margin-top: 0px;
+	margin-right:auto;
+	margin-left:auto;
+	padding: 30px 0;
+	height: 160px;
+	background-color: #065e86;	
+	
+}
+
+#footer_content {
+	width: 960px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.footer_list {
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+}
+
+.footer_list h3 {
+	font-size: 11px;
+	text-transform: uppercase;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.footer_list ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer_list ul li a {
+	font-size: 11px;
+	line-height: 18px;
+	color: #fff;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#footer_contact {
+	font-size: 11px;
+	line-height: 18px;
+	color: #fff;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#footer_contact a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#footer_contact ul {
+	list-style: none;
+}	
+
+.map {
+	height: 330px;
+	width: 330px;
+	margin-top: 10px;
+	margin-left: 10px;
+	position: absolute;
+}
